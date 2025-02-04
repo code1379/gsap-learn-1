@@ -3,6 +3,7 @@ import image1 from "./assets/1.jpg";
 import image2 from "./assets/2.jpg";
 import image3 from "./assets/3.jpg";
 import image4 from "./assets/4.jpg";
+import hero from "./assets/hero.png";
 import bg from "./assets/bg.svg";
 import $ from "jquery";
 
@@ -174,7 +175,7 @@ const App = () => {
         <div className="right lg:flex-1 relative">
           <img
             className="hero-image w-[80%] py-40 lg:py-0 lg:w-[90%]  lg:absolute lg:top-[-2vw]"
-            src="https://cdn.prod.website-files.com/67a1dc90ca6567ffe36777af/67a1dc90ca6567ffe3677813_hero-image.png"
+            src={hero}
             alt=""
           />
         </div>
