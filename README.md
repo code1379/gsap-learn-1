@@ -30,8 +30,10 @@ pnpm build
 
 ### 执行 deploy 命令
 
+这里需要添加 run 命令，不添加会报 ERR_PNPM_CANNOT_DEPLOY  A deploy is only possible from inside a workspace
+
 ```bash
-pnpm deploy
+pnpm run deploy
 ```
 
 ## 5. 之后访问对应网址即可
